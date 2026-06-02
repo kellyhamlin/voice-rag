@@ -19,5 +19,5 @@ def load_config() -> Config:
         top_k=int(os.getenv("VOICEOPS_TOP_K", "4")),
         chunk_size=int(os.getenv("VOICEOPS_CHUNK_SIZE", "1200")),
         chunk_overlap=int(os.getenv("VOICEOPS_CHUNK_OVERLAP", "150")),
-        min_score=float(os.getenv("VOICEOPS_MIN_SCORE", "0.30")),
+        min_score=float(os.getenv("VOICEOPS_MIN_SCORE", "0.540")),
     )

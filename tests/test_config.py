@@ -11,7 +11,7 @@ def test_defaults_when_env_absent(monkeypatch):
     assert cfg.top_k == 4
     assert cfg.chunk_size == 1200
     assert cfg.chunk_overlap == 150
-    assert cfg.min_score == 0.30
+    assert cfg.min_score == 0.54
 
 def test_env_overrides(monkeypatch):
     monkeypatch.setenv("VOICEOPS_TOP_K", "7")

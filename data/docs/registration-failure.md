@@ -1,4 +1,3 @@
-markdown
 ---
 title: Endpoint Registration Failure
 type: synthetic-runbook
